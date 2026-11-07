@@ -693,6 +693,15 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'CommanderPho/zotero-desktop-annotation',
+    releases: [],
+    tags: [
+      'reader',
+    ],
+    discoverReleases: true,
+    publishInShadow: true,
+  },
+  {
     repo: 'cookjohn/zotero-mcp',
     releases: [
       {
